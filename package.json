@@ -12,5 +12,18 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciolopeztorres/app_sistema_bibioteca_test.git"
+  },
+  "keywords": [],
+  "author": "Ignacio Lopez Torres <ignacio.lopeztorres@hotmail.com> (http://ignaciolopeztorres.blogpot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignaciolopeztorres/app_sistema_bibioteca_test/issues"
+  },
+  "homepage": "https://github.com/ignaciolopeztorres/app_sistema_bibioteca_test#readme",
+  "description": "Sistema Biblioteca test"
 }
