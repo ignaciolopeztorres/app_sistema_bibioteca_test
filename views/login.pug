@@ -7,7 +7,7 @@ block content
                 img(src="assets/images/logo.png").image
                 .content
                     p log-in to your account
-            form.ui.large.form(action='http://localhost/index.php' method='dsfsdf')
+            form.ui.large.form
                 .ui.staked.segment
                     .field
                         .ui.left.icon.input
@@ -16,6 +16,7 @@ block content
                                 type='text'
                                 name='email'
                                 placeholder='email'
+                                
                             )
                     .field
                         .ui.left.icon.input
@@ -24,13 +25,16 @@ block content
                                 type='password'
                                 name='password'
                                 placeholder='password'
+                                
                             )
                     .field
                         button.ui.fluid.large.teal.submit.button(type='submit') login
                     
-                    .ui.error.message
+                .ui.error.message
 
             .ui.message
                 p new to us?
                     a(href='#') register
+    include footer
+    script(src="javascripts/app/login.js") 
                     
