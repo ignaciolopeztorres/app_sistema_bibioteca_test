@@ -17,6 +17,7 @@ router.get('/index', (req, resp, next)=>{
         resp.send('Conectado a la base de datos!!');
       }
     });
+    console.log('===', conexion);
 });
 
 module.exports = router;
