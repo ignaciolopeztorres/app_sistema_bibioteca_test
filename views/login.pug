@@ -1,0 +1,40 @@
+extend layout 
+
+block content
+    .ui.middle.aligned.center.aligned.grid
+        .column
+            h2.ui.teal.image.header
+                img(src="assets/images/logo.png").image
+                .content
+                    p log-in to your account
+            form.ui.large.form
+                .ui.staked.segment
+                    .field
+                        .ui.left.icon.input
+                            i.user.icon
+                            input(
+                                type='text'
+                                name='email'
+                                placeholder='email'
+                                
+                            )
+                    .field
+                        .ui.left.icon.input
+                            i.lock.icon
+                            input(
+                                type='password'
+                                name='password'
+                                placeholder='password'
+                                
+                            )
+                    .field
+                        button.ui.fluid.large.teal.submit.button(type='submit') login
+                    
+                .ui.error.message
+
+            .ui.message
+                p new to us?
+                    a(href='#') register
+    include footer
+    script(src="javascripts/app/login.js") 
+                    

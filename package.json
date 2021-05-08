@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "webpack": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -11,6 +14,32 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "mysql": "^2.18.1",
+    "pug": "2.0.0-beta11",
+    "vue": "^2.6.12"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciolopeztorres/app_sistema_bibioteca_test.git"
+  },
+  "keywords": [],
+  "author": "Ignacio Lopez Torres <ignacio.lopeztorres@hotmail.com> (http://ignaciolopeztorres.blogpot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignaciolopeztorres/app_sistema_bibioteca_test/issues"
+  },
+  "homepage": "https://github.com/ignaciolopeztorres/app_sistema_bibioteca_test#readme",
+  "description": "Sistema Biblioteca test",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.7",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
   }
 }
