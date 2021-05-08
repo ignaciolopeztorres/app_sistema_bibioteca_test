@@ -1,19 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #DADADA;
 }
 
-a {
-  color: #00B7FF;
-}
-
-body > .grid {
-  height: 100%;
-}
-.image {
-  margin-top: -100px;
-}
-.column {
-  max-width: 450px;
-}
